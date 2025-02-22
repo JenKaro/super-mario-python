@@ -3,7 +3,7 @@ from copy import copy
 from entities.EntityBase import EntityBase
 from entities.Item import Item
 
-
+# OOPs Concept
 class CoinBrick(EntityBase):
     def __init__(self, screen, spriteCollection, x, y, sound, dashboard, gravity=0):
         super(CoinBrick, self).__init__(x, y, gravity)
